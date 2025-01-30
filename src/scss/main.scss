@@ -12,3 +12,36 @@ img,
 video {
   display: block;
 }
+
+body {
+  font-family: "Roboto";
+}
+
+.button {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 19px;
+  border: 2px solid #f00;
+  width: fit-content;
+  margin: 50px;
+  cursor: pointer;
+}
+
+.button.is-active {
+  background: #f00;
+  color: #fff;
+}
+
+.text,
+i {
+  color: #f00;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.text.is-active,
+i.is-active {
+  color: #fff;
+}
